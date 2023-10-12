@@ -31,7 +31,7 @@ header nav ul{
 }
 .login{
     text-align: right;
-    margin-right: 10px;
+    margin-right: 50px;
     width: 70%;
 }
 nav{
@@ -40,6 +40,25 @@ nav{
     padding:10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#imglp{
+.hero{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
+}
+.hero-text{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 8%;
+    font-size: 40px;
+}
+.img-hero{
+    width: 50%;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+#imglp{
+    margin-right: 0;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
