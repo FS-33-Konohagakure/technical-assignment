@@ -10,7 +10,7 @@ async function getDataDokter() {
         dokters.forEach((element) => {
             let cardDokter = `
                 <div class="w-80 h-auto inline-block m-5">
-                    <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Dokter Wanita" class="rounded-xl" />
+                    <img src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Dokter Kandungan" class="rounded-xl" />
                     <div class="mt-1.5">
                         <p class="text-xl font-semibold">${element.name}</p>
                         <p class="font-light">${element.spesialisasi}</p>
