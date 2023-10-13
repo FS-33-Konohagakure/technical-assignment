@@ -1,3 +1,8 @@
 body {
     font-family: Poppins;
 }
+
+.image {
+    width: 320px;
+    height: 215px;
+}
