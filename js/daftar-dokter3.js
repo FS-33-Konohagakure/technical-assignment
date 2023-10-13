@@ -9,7 +9,7 @@ async function getDataDokter() {
 
         dokters.forEach((element) => {
             let cardDokter = `
-                <div class="w-80 h-auto inline-block m-5">
+                <div class="h-auto m-5">
                     <img src="${element.images}" alt="Dokter Gigi" class="image rounded-xl" />
                     <div class="mt-1.5">
                         <p class="text-xl font-semibold">${element.name}</p>
@@ -42,7 +42,7 @@ async function getDataDokter() {
                         </div>
                     </div>
                     <div class="text-center mt-5">
-                        <a href="" class="bg-teal-300 rounded-xl py-1 px-4 text-sm">
+                        <a href="" class="bg-teal-400 rounded-xl py-1 px-4 text-sm text-white hover:bg-teal-600">
                             <button>Lihat Selengkapnya <i class="fa-solid fa-angle-right"></i></button>
                         </a>
                     </div>
