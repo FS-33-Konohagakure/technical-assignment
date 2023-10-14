@@ -54,7 +54,9 @@ nav{
 }
 @media (max-width :800px){
     .hero {
-        display:block;
+        display:flex;
+        flex-direction: column-reverse;
+        margin-top: 0;
     }
     
 }
