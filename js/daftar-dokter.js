@@ -13,8 +13,8 @@ async function getDataDokter() {
                 <div class="h-auto m-5">
                     <img src="${element.images}" alt="Dokter Kandungan" class="image rounded-xl" />
                     <div class="mt-1.5">
-                        <p class="text-xl font-semibold">${element.name}</p>
-                        <p class="font-light">${element.spesialisasi}</p>
+                        <p class="text-2xl font-semibold">${element.name}</p>
+                        <p class="font-light text-base">${element.spesialisasi}</p>
                     </div>
                     <div class="bg-teal-50 rounded mt-1.5 py-1 items-center text-center text-sm font-medium">
                         <p>Rp. ${element.biaya}</p>
@@ -23,22 +23,22 @@ async function getDataDokter() {
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-graduation-cap fa-2xl"></i>
                             <div>
-                                <h1 class="font-bold">Alumnus</h1>
-                                <p class="text-sm">${element.alumnus}</p>
+                                <h1 class="font-bold">ALUMNUS</h1>
+                                <p class="text-base">${element.alumnus}</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-5 my-2.5">
                             <i class="fa-solid fa-briefcase fa-2xl"></i>
                             <div>
-                                <h1 class="font-bold">Bekerja Di</h1>
-                                <p class="text-sm">${element.hospital}</p>
+                                <h1 class="font-bold">BERKERJA DI</h1>
+                                <p class="text-base">${element.hospital}</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-6">
                             <i class="fa-solid fa-user-doctor fa-2xl"></i>
                             <div>
                                 <h1 class="font-bold">STR</h1>
-                                <p class="text-sm">${element.str}</p>
+                                <p class="text-base">${element.str}</p>
                             </div>
                         </div>
                     </div>
@@ -71,10 +71,10 @@ async function getDataDokter2() {
         dokters.forEach((element) => {
             let cardDokter = `
                 <div class="h-auto m-5">
-                    <img src="${element.images}" alt="Dokter Anak" class="image rounded-xl" />
+                    <img src="${element.images}" alt="Dokter Kandungan" class="image rounded-xl" />
                     <div class="mt-1.5">
-                        <p class="text-xl font-semibold">${element.name}</p>
-                        <p class="font-light">${element.spesialisasi}</p>
+                        <p class="text-2xl font-semibold">${element.name}</p>
+                        <p class="font-light text-base">${element.spesialisasi}</p>
                     </div>
                     <div class="bg-teal-50 rounded mt-1.5 py-1 items-center text-center text-sm font-medium">
                         <p>Rp. ${element.biaya}</p>
@@ -83,22 +83,22 @@ async function getDataDokter2() {
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-graduation-cap fa-2xl"></i>
                             <div>
-                                <h1 class="font-bold">Alumnus</h1>
-                                <p class="text-sm">${element.alumnus}</p>
+                                <h1 class="font-bold">ALUMNUS</h1>
+                                <p class="text-base">${element.alumnus}</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-5 my-2.5">
                             <i class="fa-solid fa-briefcase fa-2xl"></i>
                             <div>
-                                <h1 class="font-bold">Bekerja Di</h1>
-                                <p class="text-sm">${element.hospital}</p>
+                                <h1 class="font-bold">BERKERJA DI</h1>
+                                <p class="text-base">${element.hospital}</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-6">
                             <i class="fa-solid fa-user-doctor fa-2xl"></i>
                             <div>
                                 <h1 class="font-bold">STR</h1>
-                                <p class="text-sm">${element.str}</p>
+                                <p class="text-base">${element.str}</p>
                             </div>
                         </div>
                     </div>
@@ -131,10 +131,10 @@ async function getDataDokter3() {
         dokters.forEach((element) => {
             let cardDokter = `
                 <div class="h-auto m-5">
-                    <img src="${element.images}" alt="Dokter Gigi" class="image rounded-xl" />
+                    <img src="${element.images}" alt="Dokter Kandungan" class="image rounded-xl" />
                     <div class="mt-1.5">
-                        <p class="text-xl font-semibold">${element.name}</p>
-                        <p class="font-light">${element.spesialisasi}</p>
+                        <p class="text-2xl font-semibold">${element.name}</p>
+                        <p class="font-light text-base">${element.spesialisasi}</p>
                     </div>
                     <div class="bg-teal-50 rounded mt-1.5 py-1 items-center text-center text-sm font-medium">
                         <p>Rp. ${element.biaya}</p>
@@ -143,22 +143,22 @@ async function getDataDokter3() {
                         <div class="flex items-center gap-3">
                             <i class="fa-solid fa-graduation-cap fa-2xl"></i>
                             <div>
-                                <h1 class="font-bold">Alumnus</h1>
-                                <p class="text-sm">${element.alumnus}</p>
+                                <h1 class="font-bold">ALUMNUS</h1>
+                                <p class="text-base">${element.alumnus}</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-5 my-2.5">
                             <i class="fa-solid fa-briefcase fa-2xl"></i>
                             <div>
-                                <h1 class="font-bold">Bekerja Di</h1>
-                                <p class="text-sm">${element.hospital}</p>
+                                <h1 class="font-bold">BERKERJA DI</h1>
+                                <p class="text-base">${element.hospital}</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-6">
                             <i class="fa-solid fa-user-doctor fa-2xl"></i>
                             <div>
                                 <h1 class="font-bold">STR</h1>
-                                <p class="text-sm">${element.str}</p>
+                                <p class="text-base">${element.str}</p>
                             </div>
                         </div>
                     </div>
