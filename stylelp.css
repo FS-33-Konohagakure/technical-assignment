@@ -32,7 +32,7 @@ nav a {
     color: #333;
 }
 
-nav li > a:hover {
+nav li>a:hover {
     border-bottom: 1px solid #0B8FAC;
     color: #0B8FAC;
 }
@@ -92,7 +92,7 @@ header nav ul {
     }
 }
 
-@media screen and (width <= 600px) {
+@media screen and (width <=600px) {
     .navbar-1 div ul {
         padding-left: 0;
     }
@@ -126,7 +126,7 @@ header nav ul {
     height: auto;
 }
 
-@media screen and (width <= 900px) {
+@media screen and (width <=900px) {
     .hero-text {
         padding-left: 50px;
     }
@@ -206,7 +206,7 @@ header nav ul {
     margin-top: 50px;
 }
 
-@media screen and (width <= 875px) {
+@media screen and (width <=875px) {
     .spesialisasi-content {
         gap: 20px;
     }
@@ -250,11 +250,11 @@ header nav ul {
     }
 }
 
-@media screen and (width <= 600px) {
+@media screen and (width <=600px) {
     .spesialisasi-head {
         font-size: 15px;
     }
-    
+
     .spesial {
         width: 100px;
     }
@@ -271,11 +271,11 @@ header nav ul {
     }
 }
 
-@media screen and (width <= 380px) {
+@media screen and (width <=380px) {
     .spesialisasi-head {
         text-align: center;
     }
-    
+
     .spesialisasi-content {
         flex-wrap: wrap;
         justify-content: center;
