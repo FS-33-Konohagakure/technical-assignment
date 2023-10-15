@@ -58,7 +58,7 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${1}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
@@ -124,7 +124,7 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${2}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
@@ -190,7 +190,7 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${3}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
@@ -258,7 +258,7 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${4}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
@@ -324,7 +324,7 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${5}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
@@ -390,7 +390,7 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${6}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
@@ -458,7 +458,7 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${7}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
@@ -524,7 +524,7 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${8}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
@@ -590,7 +590,7 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${9}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
