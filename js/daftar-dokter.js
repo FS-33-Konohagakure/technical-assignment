@@ -43,8 +43,8 @@ async function getDataDokter() {
                         </div>
                     </div>
                     <div class="text-center mt-5">
-                        <a href="" class="bg-teal-400 rounded-xl py-1 px-4 text-sm text-white hover:bg-teal-600">
-                            <button>Lihat Selengkapnya <i class="fa-solid fa-angle-right"></i></button>
+                        <a>
+                            <button class="bg-teal-400 rounded-xl py-1 px-4 text-sm text-white hover:bg-teal-600 hover:scale-105 duration-300">Lihat Selengkapnya <i class="fa-solid fa-angle-right"></i></button>
                         </a>
                     </div>
                 </div>
@@ -103,8 +103,8 @@ async function getDataDokter2() {
                         </div>
                     </div>
                     <div class="text-center mt-5">
-                        <a href="" class="bg-teal-400 rounded-xl py-1 px-4 text-sm text-white hover:bg-teal-600">
-                            <button>Lihat Selengkapnya <i class="fa-solid fa-angle-right"></i></button>
+                        <a>
+                            <button class="bg-teal-400 rounded-xl py-1 px-4 text-sm text-white hover:bg-teal-600 hover:scale-105 duration-300">Lihat Selengkapnya <i class="fa-solid fa-angle-right"></i></button>
                         </a>
                     </div>
                 </div>
@@ -163,8 +163,8 @@ async function getDataDokter3() {
                         </div>
                     </div>
                     <div class="text-center mt-5">
-                        <a href="" class="bg-teal-400 rounded-xl py-1 px-4 text-sm text-white hover:bg-teal-600">
-                            <button>Lihat Selengkapnya <i class="fa-solid fa-angle-right"></i></button>
+                        <a>
+                            <button class="bg-teal-400 rounded-xl py-1 px-4 text-sm text-white hover:bg-teal-600 hover:scale-105 duration-300">Lihat Selengkapnya <i class="fa-solid fa-angle-right"></i></button>
                         </a>
                     </div>
                 </div>
