@@ -9,6 +9,10 @@
   "biaya": 50000,
   "alumnus": "Universitas Kedokteran Kandungan",
   "info": "Dr. I Made Surya adalah seorang spesialis Kandungan berpengalaman dengan lebih dari 15 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Sentosa.",
+  "jadwal": {
+   "hari": "Senin - Selasa",
+   "jam": "08:00 - 10:00"
+  },
   "id": "1",
   "kategoriId": "1"
  },
@@ -22,6 +26,10 @@
   "biaya": 55000,
   "alumnus": "Universitas Kedokteran Kandungan",
   "info": "Dr. Putri Amelia adalah seorang spesialis Kandungan berpengalaman dengan lebih dari 12 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Bhakti Medika.",
+  "jadwal": {
+   "hari": "Senin - Selasa",
+   "jam": "11:00 - 13:00"
+  },
   "id": "2",
   "kategoriId": "1"
  },
@@ -35,6 +43,10 @@
   "biaya": 60000,
   "alumnus": "Universitas Kedokteran Kandungan",
   "info": "Dr. Jessica Milea adalah seorang spesialis Kandungan berpengalaman dengan lebih dari 20 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Permata Cipta.",
+  "jadwal": {
+   "hari": "Senin - Selasa",
+   "jam": "14:00 - 16:00"
+  },
   "id": "3",
   "kategoriId": "1"
  },
@@ -48,6 +60,10 @@
   "biaya": 55000,
   "alumnus": "Universitas Kedokteran Anak",
   "info": "Dr. Dewi Ratnasari adalah seorang spesialis Dokter Anak berpengalaman dengan lebih dari 10 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Citra Medika.",
+  "jadwal": {
+   "hari": "Rabu - Kamis",
+   "jam": "08:00 - 10:00"
+  },
   "id": "4",
   "kategoriId": "2"
  },
@@ -61,6 +77,10 @@
   "biaya": 45000,
   "alumnus": "Universitas Kedokteran Anak",
   "info": "Dr. Rizki Pratama adalah seorang spesialis Dokter Anak berpengalaman dengan lebih dari 18 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Medistra.",
+  "jadwal": {
+   "hari": "Rabu - Kamis",
+   "jam": "11:00 - 13:00"
+  },
   "id": "5",
   "kategoriId": "2"
  },
@@ -74,6 +94,10 @@
   "biaya": 50000,
   "alumnus": "Universitas Kedokteran Anak",
   "info": "Dr. Siti Nurhaliza adalah seorang spesialis Dokter Anak berpengalaman dengan lebih dari 14 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Kasih Sayang.",
+  "jadwal": {
+   "hari": "Rabu - Kamis",
+   "jam": "14:00 - 16:00"
+  },
   "id": "6",
   "kategoriId": "2"
  },
@@ -87,6 +111,10 @@
   "biaya": 55000,
   "alumnus": "Universitas Kedokteran Gigi",
   "info": "Dr. Hendra Wijaya adalah seorang spesialis Dokter Gigi berpengalaman dengan lebih dari 10 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Hermina.",
+  "jadwal": {
+   "hari": "Jumat - Sabtu",
+   "jam": "09:00 - 11:00"
+  },
   "id": "7",
   "kategoriId": "3"
  },
@@ -100,6 +128,10 @@
   "biaya": 60000,
   "alumnus": "Universitas Kedokteran Gigi",
   "info": "Dr. Dian Purnama adalah seorang spesialis Dokter Gigi berpengalaman dengan lebih dari 16 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Puri Medika.",
+  "jadwal": {
+   "hari": "Jumat - Sabtu",
+   "jam": "12:00 - 14:00"
+  },
   "id": "8",
   "kategoriId": "3"
  },
@@ -113,6 +145,10 @@
   "biaya": 45000,
   "alumnus": "Universitas Kedokteran Gigi",
   "info": "Dr. Tri Utami adalah seorang spesialis Dokter Gigi berpengalaman dengan lebih dari 13 tahun praktik medis. Saat ini beliau praktik di Rumah Sakit Sejahtera.",
+  "jadwal": {
+   "hari": "Jumat - Sabtu",
+   "jam": "15:00 - 17:00"
+  },
   "id": "9",
   "kategoriId": "3"
  }
