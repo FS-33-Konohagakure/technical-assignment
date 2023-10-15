@@ -59,7 +59,7 @@ fetch(`${INFORMASI_DOKTER}/${1}`)
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 transition ease-in-out duration-300">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 active:scale-0 focus:scale-100 duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
