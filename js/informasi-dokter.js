@@ -2,7 +2,7 @@ const INFORMASI_DOKTER = "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/1
 
 const informasiDokter = document.getElementById("informasi-dokter")
 
-informasiDokter.innerText = "Loading..."
+// informasiDokter.innerText = "Loading..."
 
 fetch(`${INFORMASI_DOKTER}/${1}`)
 .then((respon) => respon.json())
@@ -13,13 +13,13 @@ fetch(`${INFORMASI_DOKTER}/${1}`)
 
     isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
-        <div class="flex gap-10 mb-5 ">
+        <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
                 <img src="${data.images}" class="image rounded-xl" />
-                <p class="mt-5 font-light">Jadwal</p>
-                <p></p>
+                <p class="mt-3 font-extralight">Jadwal</p>
+                <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
-            <div class="flex gap-16 ">
+            <div class="flex gap-16 max-[700px]:gap-20 max-[700px]:text-center max-[450px]:flex-col max-[450px]:gap-4">
                 <div>
                     <div class="mb-3">
                         <h1 class="font-bold text-lg border-b-2 border-b-teal-400">NAMA</h1>
@@ -54,12 +54,12 @@ fetch(`${INFORMASI_DOKTER}/${1}`)
                 </div>
             </div>
         </div>
-        <div class="">
-            <p>${data.info}</p>
+        <div>
+            <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
             <a href="">
-                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600">Pilih Dokter</button>
+                <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 transition ease-in-out duration-300">Pilih Dokter</button>
             </a>
         </div>
     </div>
