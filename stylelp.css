@@ -1,7 +1,10 @@
-body {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
 
+body {
     font-family: Poppins;
     color: #333;
 }
@@ -12,14 +15,22 @@ nav {
     justify-content: space-between;
     align-items: center;
 
+    width: 100%;
     height: 80px;
     padding-left: 50px;
     padding-right: 50px;
 
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar-2 {
     display: flex;
     align-items: center;
 }
@@ -38,7 +49,7 @@ nav li>a:hover {
 }
 
 nav div>ul {
-    gap: 50px;
+    gap: 30px;
 }
 
 nav li {
@@ -50,7 +61,7 @@ header nav ul {
     justify-content: space-between;
 }
 
-.home_profil {
+#home-profil {
     display: flex;
     align-items: center;
     list-style: none;
@@ -67,38 +78,123 @@ header nav ul {
 .profil {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
 }
 
-@media screen and (max-width : 800px) {
-    nav li {
-        list-style: none;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        padding-top: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    nav div>ul {
-        gap: 20px;
-    }
-
-    .home_profil {
-        margin: 0;
-    }
+.hamburger {
+    display: none;
+    cursor: pointer;
 }
 
-@media screen and (width <=600px) {
-    .navbar-1 div ul {
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #333;
+}
+
+.nav-link {
+    color: #333;
+}
+
+@media screen and (width <=768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -110%;
+        top: 80px;
+        gap: 0;
+        margin-top: 0;
+        flex-direction: column;
+        background-color: #f0fdfa;
+        width: 100%;
+        text-align: center;
+        transition: 300ms;
+    }
+
+    #home-profil {
+        margin-right: 20px;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
         padding-left: 0;
     }
 
-    .home_profil {
-        margin: 0;
+    nav {
+        justify-content: space-between;
+        position: fixed;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (width <=550px) {
+    nav {
+        padding: 0 20px;
+        position: fixed;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (width <=430px) {
+    nav {
+        padding: 0 10px 0 0;
+        position: fixed;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+
+    .user {
+        display: none;
+    }
+}
+
+@media screen and (width <=300px) {
+    nav {
+        position: fixed;
+    }
+
+    main {
+        padding-top: 80px;
+    }
+
+    #logo-nav {
+        width: 100px;
+        height: auto;
+    }
+
+    #home-profil {
+        padding-left: 0;
     }
 }
 
@@ -166,12 +262,13 @@ header nav ul {
     flex-direction: column;
     margin-top: 30px;
     height: auto;
-    padding: 10px 0;
+    padding: 30px 0 50px 0;
     background-color: #f0fdfa;
 }
 
 .spesialisasi-content {
     display: flex;
+    margin-top: 20px;
     gap: 50px;
 }
 
@@ -303,7 +400,7 @@ footer {
     border-top-color: #c9c9c9;
     border-left-color: #F8FFFA;
     border-right-color: #F8FFFA;
-    border-bottom-color: white;
+    border-bottom-color: #c9c9c9;
 }
 
 @media screen and (max-width:800px) {
@@ -360,7 +457,7 @@ footer div {
 }
 
 .logo-footer {
-    margin-top: 25px;
+    margin-top: 0;
     padding: 0;
 }
 
@@ -370,7 +467,6 @@ p.footer {
 
 footer ul {
     list-style: none;
-    margin-top: 10px;
     text-align: left;
     padding: 0;
     margin: 0;
@@ -383,12 +479,6 @@ footer li {
 .copyright {
     font-size: small;
     text-align: center;
-    padding-top: 10px;
-    padding: 0;
-    border-style: solid;
-    border-width: 0.5px;
-    border-top-color: #c9c9c9;
-    border-left-color: white;
-    border-right-color: white;
-    border-bottom-color: white;
+    margin-top: 0;
+    padding: 10px 0;
 }
