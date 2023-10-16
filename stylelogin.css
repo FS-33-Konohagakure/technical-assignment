@@ -17,7 +17,7 @@ body{
     justify-content:center;
     align-items: center;
     flex-direction: column;
-    width: 55%;
+    width: 50%;
 }
 .login-logo{
     width: 180px;
@@ -25,16 +25,24 @@ body{
 }
 .hero-login-text{
     text-align: center;
-    line-height: 0.7;
-    color: #1d8795;
+    line-height: 0.3;
+    color: #555;
     text-shadow:#333;
+}
+#h3-text{
+    margin-top: 0;
+    padding-top: 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
 }
 .login{
     margin-top: 25px;
     background-color: #cbefeb;
     padding: 30px;
     padding-top: 35px;
-    padding-bottom: 35px;
+    padding-bottom: 45px;
     border-radius: 8px;
 }
 label {
@@ -56,6 +64,8 @@ button{
     border-radius: 5px;
     cursor: pointer;
     background-color: cornflowerblue;
+    color: white;
+    font-size: medium;
 }
 button:hover{
     width: 307px;
@@ -64,17 +74,92 @@ button:hover{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-        background-color: rgb(80, 136, 239);
-}
-p{
-    margin-top: 20px;
-    text-align: right;
-    font-size: small;
+    background-color: rgb(80, 136, 239);
+    color: white;
+    font-size: medium;
 }
 .container-img{
-    width: 45%;
+    width: 50%;
 }
 #img-login{
     width: 100%;
     height: auto;
+}
+@media screen and (width <=768px){
+    .container{
+        display: block;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .container-login{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    .login-logo{
+        width: 170px;
+        height: auto;
+    }
+    .login{
+        margin-top: 20px;
+        background-color: #cbefeb;
+        padding: 30px;
+        padding-top: 35px;
+        padding-bottom: 40px;
+        border-radius: 8px;
+    }
+    input {
+        width: 240px;
+        padding: 8px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    button{
+        width: 257px;
+        margin-top: 25px;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: cornflowerblue;
+        color: white;
+        font-size: medium;
+    }
+    button:hover{
+        width: 257px;
+        margin-top: 25px;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(80, 136, 239);
+        color: white;
+        font-size: medium;
+    }
+
+}
+@media screen and (width <=1500px ){
+    .container{
+        display: block;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .container-login{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .container-img{
+        width: 0%;
+    }
+    #img-login{
+        width: 0;
+        height: 0;
+    }
 }
