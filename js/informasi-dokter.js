@@ -1,3 +1,12 @@
+// Bagian Navbar
+const hamburger = document.querySelector(".hamburger")
+const navMenu = document.querySelector(".nav-menu")
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active")
+    navMenu.classList.toggle("active")
+})
+
 const INFORMASI_DOKTER_KANDUNGAN = "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/1/dokter"
 
 // Daftar Dokter Kandungan 1
