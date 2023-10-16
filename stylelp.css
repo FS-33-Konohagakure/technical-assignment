@@ -93,7 +93,7 @@ header nav ul {
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #333;
+    background-color: #0B8FAC;
 }
 
 .nav-link {
@@ -124,7 +124,7 @@ header nav ul {
         gap: 0;
         margin-top: 0;
         flex-direction: column;
-        background-color: #f0fdfa;
+        background-color: white;
         width: 100%;
         text-align: center;
         transition: 300ms;
@@ -381,7 +381,7 @@ header nav ul {
 
 /* Bagian Footer */
 footer {
-    background-color: #F8FFFA;
+    background-color: #f0fdfa;
 }
 
 .footer-1 {
