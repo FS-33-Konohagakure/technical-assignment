@@ -1,3 +1,11 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: Poppins;
+    color: #333;
+}
 .container{
     display: flex;
     justify-content: space-between;
@@ -5,12 +13,66 @@
     margin-left: 0;
 }
 .container-login{
-    width: 50%;
-    background-color: bisque;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 55%;
+}
+.login-logo{
+    width: 180px;
+    height: auto;
+}
+.hero-login-text{
+    text-align: center;
+    line-height: 0.7;
+    color: #1d8795;
+    text-shadow:#333;
+}
+.login{
+    margin-top: 25px;
+    background-color: #cbefeb;
+    padding: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input {
+    width: 290px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    width: 307px;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+button:hover{
+    width: 307px;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+        background-color: rgb(80, 136, 239);
+}
+p{
+    margin-top: 20px;
+    text-align: right;
+    font-size: small;
 }
 .container-img{
-    width: 50%;
-    background-color: blueviolet;
+    width: 45%;
 }
 #img-login{
     width: 100%;
