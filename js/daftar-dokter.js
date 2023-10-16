@@ -1,3 +1,12 @@
+// Bagian Navbar
+const hamburger = document.querySelector(".hamburger")
+const navMenu = document.querySelector(".nav-menu")
+
+hamburger.addEventListener("click", () => {
+    hamburger.classList.toggle("active")
+    navMenu.classList.toggle("active")
+})
+
 // Daftar Dokter Kandungan
 const daftarDokter = document.getElementById("daftar-dokter");
 
