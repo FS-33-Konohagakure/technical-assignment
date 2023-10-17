@@ -20,23 +20,17 @@ body{
     width: 50%;
 }
 .login-logo{
-    width: 180px;
+    width: 160px;
     height: auto;
 }
 .hero-login-text{
+    margin: 0;
     text-align: center;
-    line-height: 0.3;
+    line-height: 0.5;
     color: #555;
     text-shadow:#333;
 }
-#h3-text{
-    margin-top: 0;
-    padding-top: 0;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-}
+
 .login{
     margin-top: 25px;
     background-color: #cbefeb;
@@ -83,8 +77,9 @@ button:hover{
 }
 #img-login{
     width: 100%;
-    height: auto;
+    height: 100vh;
 }
+
 @media screen and (width <=768px){
     .container{
         display: block;
@@ -140,26 +135,4 @@ button:hover{
         font-size: medium;
     }
 
-}
-@media screen and (width <=1500px ){
-    .container{
-        display: block;
-        margin-top: 30px;
-        margin-left: 0;
-    }
-    .container-login{
-        display: flex;
-        justify-content:center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .container-img{
-        width: 0%;
-    }
-    #img-login{
-        width: 0;
-        height: 0;
-    }
 }
