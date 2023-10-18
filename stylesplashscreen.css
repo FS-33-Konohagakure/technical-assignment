@@ -1,106 +1,84 @@
-body{
-    margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    align-items: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Poppins
 }
+
 .splashscreen{
     width: 100%;
 }
+
 .splashscreen-img{
     position: relative;
     width: 100%;
-    height: auto;
-    filter: brightness(40%);
-    z-index: 1;
+    height: 100vh;
+    background-size: cover;
+    filter: brightness(0.5);
 }
+
 .title{
-    margin-left: 50px;
-    margin-right: 50px;
-    top: 400px;
+    top: 65%;
+    left: 5%;
     position: absolute;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bold;
-    color: white;
+    color: snow;
     z-index: 2;
 }
+
 .next{
-    top: 650px;
-    right: 60px;
+    top: 85%;
+    right: 5%;
     position: absolute;
     font-size: 20px;
-    font-weight: bold;
-    color: white;
+    font-weight: 600;
+    color: snow;
     text-shadow: black;
     z-index: 2;
     background-color:rgb(46, 154, 157);
-    padding: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 8px 16px;
     border-radius: 10px;
 }
 .next:hover{
-    top: 650px;
-    right: 60px;
-    position: absolute;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    text-shadow: black;
-    z-index: 2;
     background-color:cadetblue;
-    padding: 8px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 10px;
+    border: 1px solid rgb(199, 227, 228);
 }
+
 a{
     text-decoration: none;
 }
 
-@media screen and (width <=890px){
+@media screen and (width <=768px){
     .title{
-        margin-left: 30px;
-        margin-right: 30px;
-        top: 200px;
-        position: absolute;
-        font-size: 35px;
-        font-weight: bold;
-        color: #333;
-        z-index: 2;
+        font-size: 30px;
     }
-    .next{
-        top: 600px;
-        right: 30px;
-        position: absolute;
+}
+
+@media screen and (width <=600px){
+    .title{
+        left: 0;
+        max-width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .next {
+        right: 35%;
+        font-size: 16px;
+    }
+}
+
+@media screen and (width <=333px){
+    .title{
+        left: 0;
+        max-width: 100%;
+        text-align: center;
         font-size: 20px;
-        font-weight: bold;
-        color: white;
-        text-shadow: black;
-        z-index: 2;
-        background-color:rgb(46, 154, 157);
-        padding: 8px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 10px;
     }
-    .next:hover{
-        top: 600px;
-        right: 30px;
-        position: absolute;
-        font-size: 20px;
-        font-weight: bold;
-        color: white;
-        text-shadow: black;
-        z-index: 2;
-        background-color:cadetblue;
-        padding: 8px;
-        padding-left: 15px;
-        padding-right: 15px;
-        border-radius: 10px;
-    }
-    .splashscreen-img{
-        filter: brightness(100%);
+
+    .next {
+        right: 30%;
+        font-size: 14px;
     }
 }
