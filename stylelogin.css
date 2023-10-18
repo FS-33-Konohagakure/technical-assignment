@@ -81,22 +81,19 @@ button:hover{
 }
 
 @media screen and (width <=768px){
-    .container{
-        display: block;
-        margin-top: 30px;
-        margin-left: 0;
-    }
     .container-login{
         display: flex;
         justify-content:center;
         align-items: center;
-        flex-direction: column;
+        min-height: 100vh;
         width: 100%;
     }
+
     .login-logo{
         width: 170px;
         height: auto;
     }
+
     .login{
         margin-top: 20px;
         background-color: #cbefeb;
@@ -105,6 +102,11 @@ button:hover{
         padding-bottom: 40px;
         border-radius: 8px;
     }
+
+    .container-img {
+        display: none;
+    }
+
     input {
         width: 240px;
         padding: 8px;
@@ -112,6 +114,7 @@ button:hover{
         border: 1px solid #ccc;
         border-radius: 5px;
     }
+
     button{
         width: 257px;
         margin-top: 25px;
@@ -123,6 +126,7 @@ button:hover{
         color: white;
         font-size: medium;
     }
+
     button:hover{
         width: 257px;
         margin-top: 25px;
@@ -134,5 +138,4 @@ button:hover{
         color: white;
         font-size: medium;
     }
-
 }
