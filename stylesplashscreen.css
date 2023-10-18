@@ -6,25 +6,54 @@ body{
     font-family: Poppins;
 }
 .splashscreen{
-    /* width: 100%;
-    height: 800px; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+    width: 100%;
 }
 .splashscreen-img{
+    position: relative;
     width: 1550px;
     height: auto;
     filter: brightness(40%);
+    z-index: 1;
 }
-.splash-text{
-    font-size: xx-large;
+.title{
+    margin-left: 50px;
+    bottom: 100px;
+    position: absolute;
+    font-size: 45px;
     font-weight: bold;
     color: white;
-    background-color: aqua;
-
+    z-index: 2;
 }
-
-/* background-image: url(/assets/img-splashscreen.png);
-background-size: cover;
-filter: brightness(50%); */
+.next{
+    bottom: 40px;
+    right: 60px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: black;
+    z-index: 2;
+    background-color:rgb(46, 154, 157);
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+.next:hover{
+    bottom: 40px;
+    right: 60px;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: black;
+    z-index: 2;
+    background-color:cadetblue;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+}
