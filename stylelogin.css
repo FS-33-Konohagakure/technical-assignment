@@ -1,0 +1,141 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: Poppins;
+    color: #333;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left: 0;
+}
+.container-login{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.login-logo{
+    width: 160px;
+    height: auto;
+}
+.hero-login-text{
+    margin: 0;
+    text-align: center;
+    line-height: 0.5;
+    color: #555;
+    text-shadow:#333;
+}
+
+.login{
+    margin-top: 25px;
+    background-color: #cbefeb;
+    padding: 30px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    border-radius: 8px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+input {
+    width: 290px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    width: 307px;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: medium;
+}
+button:hover{
+    width: 307px;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(80, 136, 239);
+    color: white;
+    font-size: medium;
+}
+.container-img{
+    width: 50%;
+}
+#img-login{
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (width <=768px){
+    .container-login{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .login-logo{
+        width: 170px;
+        height: auto;
+    }
+
+    .login{
+        margin-top: 20px;
+        background-color: #cbefeb;
+        padding: 30px;
+        padding-top: 35px;
+        padding-bottom: 40px;
+        border-radius: 8px;
+    }
+
+    .container-img {
+        display: none;
+    }
+
+    input {
+        width: 240px;
+        padding: 8px;
+        margin-bottom: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    button{
+        width: 257px;
+        margin-top: 25px;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: cornflowerblue;
+        color: white;
+        font-size: medium;
+    }
+
+    button:hover{
+        width: 257px;
+        margin-top: 25px;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(80, 136, 239);
+        color: white;
+        font-size: medium;
+    }
+}
