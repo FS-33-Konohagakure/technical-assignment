@@ -1,7 +1,7 @@
 [
  {
   "name": "Dr. I Made Kartika",
-  "images": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  "images": "",
   "spesialisasi": "Kandungan",
   "pengalaman": 15,
   "str": 4521068907341231,
@@ -18,7 +18,7 @@
  },
  {
   "name": "Dr. Putri Amelia",
-  "images": "https://images.unsplash.com/photo-1536064479547-7ee40b74b807?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  "images": "",
   "spesialisasi": "Kandungan",
   "pengalaman": 12,
   "str": 3125902456789012,
@@ -35,7 +35,7 @@
  },
  {
   "name": "Dr. Jessica Milea",
-  "images": "https://images.unsplash.com/photo-1527613426441-4da17471b66d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1452&q=80",
+  "images": "",
   "spesialisasi": "Kandungan",
   "pengalaman": 20,
   "str": 6789543210678934,
@@ -52,7 +52,7 @@
  },
  {
   "name": "Dr. Dewi Ratnasari",
-  "images": "https://plus.unsplash.com/premium_photo-1661765470809-13fa794d995f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  "images": "",
   "spesialisasi": "Dokter Anak",
   "pengalaman": 10,
   "str": 2390578163410927,
@@ -69,7 +69,7 @@
  },
  {
   "name": "Dr. Rizki Pratama",
-  "images": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  "images": "",
   "spesialisasi": "Dokter Anak",
   "pengalaman": 18,
   "str": 8901234567012354,
@@ -86,7 +86,7 @@
  },
  {
   "name": "Dr. Siti Nurhaliza",
-  "images": "https://images.unsplash.com/photo-1624133172024-87559cb5eeb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80",
+  "images": "",
   "spesialisasi": "Dokter Anak",
   "pengalaman": 14,
   "str": 7890123456789321,
@@ -103,7 +103,7 @@
  },
  {
   "name": "Dr. Hendra Wijaya",
-  "images": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  "images": "",
   "spesialisasi": "Dokter Gigi",
   "pengalaman": 10,
   "str": 5432109876321098,
@@ -120,7 +120,7 @@
  },
  {
   "name": "Dr. Dian Purnama",
-  "images": "https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  "images": "",
   "spesialisasi": "Dokter Gigi",
   "pengalaman": 16,
   "str": 1234567890123456,
@@ -137,7 +137,7 @@
  },
  {
   "name": "Dr. Tri Utami",
-  "images": "https://plus.unsplash.com/premium_photo-1681966907271-1e350ec3bb95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1493&q=80",
+  "images": "",
   "spesialisasi": "Dokter Gigi",
   "pengalaman": 13,
   "str": 4321098765432109,
