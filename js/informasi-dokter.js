@@ -1,29 +1,32 @@
 // Bagian Navbar
-const hamburger = document.querySelector(".hamburger")
-const navMenu = document.querySelector(".nav-menu")
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active")
-    navMenu.classList.toggle("active")
-})
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+});
 
-const INFORMASI_DOKTER_KANDUNGAN = "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/1/dokter"
+const INFORMASI_DOKTER_KANDUNGAN =
+  "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/1/dokter";
 
 // Daftar Dokter Kandungan 1
-const informasiDokterKandungan = document.getElementById("informasi-dokter-kandungan")
+const informasiDokterKandungan = document.getElementById(
+  "informasi-dokter-kandungan"
+);
 
 fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${1}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-kandungan1.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -71,25 +74,27 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${1}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterKandungan.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterKandungan.innerHTML = isiInformasiDokter;
+  });
 
 // Daftar Dokter Kandungan 2
-const informasiDokterKandungan2 = document.getElementById("informasi-dokter-kandungan2")
+const informasiDokterKandungan2 = document.getElementById(
+  "informasi-dokter-kandungan2"
+);
 
 fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${2}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-kandungan2.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -137,25 +142,27 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${2}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterKandungan2.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterKandungan2.innerHTML = isiInformasiDokter;
+  });
 
 // Daftar Dokter Kandungan 3
-const informasiDokterKandungan3 = document.getElementById("informasi-dokter-kandungan3")
+const informasiDokterKandungan3 = document.getElementById(
+  "informasi-dokter-kandungan3"
+);
 
 fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${3}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-kandungan3.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -203,27 +210,28 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${3}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterKandungan3.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterKandungan3.innerHTML = isiInformasiDokter;
+  });
 
-const INFORMASI_DOKTER_ANAK = "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/2/dokter"
+const INFORMASI_DOKTER_ANAK =
+  "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/2/dokter";
 
 // Daftar Dokter Anak 1
-const informasiDokterAnak = document.getElementById("informasi-dokter-anak")
+const informasiDokterAnak = document.getElementById("informasi-dokter-anak");
 
 fetch(`${INFORMASI_DOKTER_ANAK}/${4}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-anak1.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -271,25 +279,25 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${4}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterAnak.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterAnak.innerHTML = isiInformasiDokter;
+  });
 
 // Daftar Dokter Anak 2
-const informasiDokterAnak2 = document.getElementById("informasi-dokter-anak2")
+const informasiDokterAnak2 = document.getElementById("informasi-dokter-anak2");
 
 fetch(`${INFORMASI_DOKTER_ANAK}/${5}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-anak2.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -337,25 +345,25 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${5}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterAnak2.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterAnak2.innerHTML = isiInformasiDokter;
+  });
 
 // Daftar Dokter Anak 3
-const informasiDokterAnak3 = document.getElementById("informasi-dokter-anak3")
+const informasiDokterAnak3 = document.getElementById("informasi-dokter-anak3");
 
 fetch(`${INFORMASI_DOKTER_ANAK}/${6}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-anak3.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -403,27 +411,28 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${6}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterAnak3.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterAnak3.innerHTML = isiInformasiDokter;
+  });
 
-const INFORMASI_DOKTER_GIGI = "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/3/dokter"
+const INFORMASI_DOKTER_GIGI =
+  "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/3/dokter";
 
 // Daftar Dokter Gigi 1
-const informasiDokterGigi = document.getElementById("informasi-dokter-gigi")
+const informasiDokterGigi = document.getElementById("informasi-dokter-gigi");
 
 fetch(`${INFORMASI_DOKTER_GIGI}/${7}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-gigi1.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -471,25 +480,25 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${7}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterGigi.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterGigi.innerHTML = isiInformasiDokter;
+  });
 
 // Daftar Dokter Gigi 2
-const informasiDokterGigi2 = document.getElementById("informasi-dokter-gigi2")
+const informasiDokterGigi2 = document.getElementById("informasi-dokter-gigi2");
 
 fetch(`${INFORMASI_DOKTER_GIGI}/${8}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-gigi2.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -537,25 +546,25 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${8}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterGigi2.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterGigi2.innerHTML = isiInformasiDokter;
+  });
 
 // Daftar Dokter Gigi 2
-const informasiDokterGigi3 = document.getElementById("informasi-dokter-gigi3")
+const informasiDokterGigi3 = document.getElementById("informasi-dokter-gigi3");
 
 fetch(`${INFORMASI_DOKTER_GIGI}/${9}`)
-    .then((respon) => respon.json())
-    .then((data) => {
-        console.log(data);
+  .then((respon) => respon.json())
+  .then((data) => {
+    console.log(data);
 
-        let isiInformasiDokter = "";
+    let isiInformasiDokter = "";
 
-        isiInformasiDokter += `
+    isiInformasiDokter += `
     <div class="card rounded-3xl p-5 bg-white shadow-xl">
         <div class="flex gap-10 mb-5 max-[700px]:flex-col max-[700px]:items-center">
             <div class="text-center">
-                <img src="${data.images}" class="image rounded-xl" />
+                <img src="/assets/dokter-gigi3.jpg" class="image rounded-xl" />
                 <p class="mt-3 font-extralight">Jadwal</p>
                 <p class="font-extralight">${data.jadwal.hari}, ${data.jadwal.jam} WIB</p>
             </div>
@@ -603,6 +612,6 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${9}`)
             </a>
         </div>
     </div>
-    `
-        informasiDokterGigi3.innerHTML = isiInformasiDokter
-    })
+    `;
+    informasiDokterGigi3.innerHTML = isiInformasiDokter;
+  });
