@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+.image {
+    width: 320px;
+    height: 215px;
+}
+
+/* Bagian Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+
+    width: 100%;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar-2 {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #333;
+}
+
+nav li>a:hover {
+    border-bottom: 1px solid #0B8FAC;
+    color: #0B8FAC;
+}
+
+nav div>ul {
+    gap: 30px;
+}
+
+nav li {
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#home-profil {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+    gap: 5px;
+
+    font-weight: 600;
+}
+
+.user {
+    color: #0B8FAC;
+}
+
+.profil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:#0891b2;
+}
+
+.nav-link {
+    color: #333;
+}
+
+@media screen and (width <=768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu {
+        position: fixed;
+        left: -110%;
+        top: 80px;
+        gap: 0;
+        margin-top: 0;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 300ms;
+    }
+
+    #home-profil {
+        margin-right: 20px;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        padding-left: 0;
+    }
+
+    nav {
+        justify-content: space-between;
+        position: fixed;
+    }
+
+    #daftar-dokter,
+    #daftar-dokter2,
+    #daftar-dokter3 {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (width <=550px) {
+    nav {
+        padding: 0 20px;
+        position: fixed;
+    }
+
+    #daftar-dokter,
+    #daftar-dokter2,
+    #daftar-dokter3 {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (width <=430px) {
+    nav {
+        padding: 0 10px 0 0;
+        position: fixed;
+    }
+
+    #daftar-dokter,
+    #daftar-dokter2,
+    #daftar-dokter3 {
+        padding-top: 80px;
+    }
+
+    .user {
+        display: none;
+    }
+}
+
+@media screen and (width <=300px) {
+    nav {
+        position: fixed;
+    }
+
+    #daftar-dokter,
+    #daftar-dokter2,
+    #daftar-dokter3 {
+        padding-top: 80px;
+    }
+
+    #logo-nav {
+        width: 100px;
+        height: auto;
+    }
+
+    #home-profil {
+        padding-left: 0;
+    }
+}
