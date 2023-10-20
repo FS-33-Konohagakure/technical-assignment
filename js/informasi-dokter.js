@@ -69,7 +69,7 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${1}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
@@ -137,7 +137,7 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${2}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya2.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
@@ -205,7 +205,7 @@ fetch(`${INFORMASI_DOKTER_KANDUNGAN}/${3}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya3.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
@@ -274,7 +274,7 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${4}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya4.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
@@ -340,7 +340,7 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${5}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya5.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
@@ -406,7 +406,7 @@ fetch(`${INFORMASI_DOKTER_ANAK}/${6}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya6.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
@@ -475,7 +475,7 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${7}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya7.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
@@ -541,7 +541,7 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${8}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya8.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>
@@ -607,7 +607,7 @@ fetch(`${INFORMASI_DOKTER_GIGI}/${9}`)
             <p class="text-justify">${data.info}</p>
         </div>
         <div class="mt-5 text-end">
-            <a href="">
+            <a href="/rincian-biaya/rincian-biaya9.html">
                 <button class="bg-teal-400 rounded-xl py-1 px-4 text-white hover:bg-teal-600 hover:scale-110 duration-300">Pilih Dokter</button>
             </a>
         </div>

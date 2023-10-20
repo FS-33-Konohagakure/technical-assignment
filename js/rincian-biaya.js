@@ -49,7 +49,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_KANDUNGAN}/${1}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
@@ -97,7 +97,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_KANDUNGAN}/${2}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran2.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
@@ -145,7 +145,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_KANDUNGAN}/${3}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran3.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
@@ -196,7 +196,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_ANAK}/${4}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran4.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
@@ -244,7 +244,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_ANAK}/${5}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran5.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
@@ -292,7 +292,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_ANAK}/${6}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran6.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
@@ -343,7 +343,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_GIGI}/${7}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran7.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
@@ -391,7 +391,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_GIGI}/${8}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran8.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
@@ -439,7 +439,7 @@ fetch(`${RINCIAN_BIAYA_DOKTER_GIGI}/${9}`)
                 </div>
             </div>
             <div class="text-right mt-7">
-                <a href="">
+                <a href="/pembayaran/pembayaran9.html">
                     <button class="bg-teal-400 rounded-xl py-1 px-4 text-base font-semibold text-white hover:bg-teal-600 hover:scale-105 duration-300">KONFIRMASI</button>
                 </a>
             </div>
