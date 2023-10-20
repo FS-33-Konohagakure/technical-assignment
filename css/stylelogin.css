@@ -1,0 +1,151 @@
+body{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: Poppins;
+    color: #333;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-left: 0;
+}
+.container-login{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.login-logo{
+    width: 160px;
+    height: auto;
+}
+.hero-login-text{
+    margin: 0;
+    text-align: center;
+    line-height: 0.5;
+    color: #555;
+    text-shadow:#333;
+}
+
+.login{
+    margin-top: 25px;
+    background-color: #cbefeb;
+    padding: 30px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    border-radius: 8px;
+}
+
+.login > label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.login > input {
+    font-family: Poppins;
+    border-radius: 8px;
+    width: 290px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+button{
+    width: 307px;
+    margin-top: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+button:hover{
+    background-color: rgb(55, 108, 207);
+}
+.container-img{
+    width: 50%;
+}
+#img-login{
+    width: 100%;
+    height: 100vh;
+}
+
+@media screen and (width <=768px){
+    .container-login{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .container-img {
+        display: none;
+    }
+}
+
+@media screen and (width <= 420px) {
+    .login-logo {
+        width: 120px;
+        height: auto;
+    }
+
+    .hero-login-text > h1 {
+        font-size: 24px;
+    }
+
+    .login > input {
+        width: 225px;
+    }
+
+    button {
+        width: 243px;
+    }
+}
+
+@media screen and (width <= 320px) {
+    .login-logo {
+        width: 100px;
+        height: auto;
+    }
+
+    .hero-login-text > h1 {
+        font-size: 22px;
+    }
+
+    .login > input {
+        width: 200px;
+    }
+
+    button {
+        width: 218px;
+    }
+}
+
+@media screen and (width <= 290px) {
+    .login-logo {
+        width: 90px;
+        height: auto;
+    }
+
+    .hero-login-text > h1 {
+        font-size: 20px;
+    }
+
+    .login > input {
+        width: 170px;
+    }
+
+    button {
+        width: 188px;
+    }
+}
