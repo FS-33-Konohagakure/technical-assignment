@@ -1,4 +1,4 @@
-// Bagian Navbar
+// Bagian Awal Navbar
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
@@ -6,179 +6,48 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
   navMenu.classList.toggle("active");
 });
+// Bagian Akhir Navbar
 
 // Bagian Pop Up Pembayaran
 function konfirmasiPembayaran() {
-    alert("Pembayaran Telah Berhasil!")
+  alert("Pembayaran Telah Berhasil!");
 }
 
-const RINCIAN_BIAYA_DOKTER_KANDUNGAN =
-  "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/1/dokter";
+// Bagian Awal Pembayaran
+const MOCK_API_URL = "https://65255e4467cfb1e59ce728d6.mockapi.io";
 
-  // Pembayaran Dokter Kandungan 1
-const totalBiaya = document.getElementById("total-pembayaran")
+function buildRequestUrl(kategoriId, dokterId) {
+  return `${MOCK_API_URL}/kategori/${kategoriId}/dokter/${dokterId}`;
+}
 
-fetch(`${RINCIAN_BIAYA_DOKTER_KANDUNGAN}/${1}`)
-.then((respon) => respon.json())
-.then((data) => {
-  let textBiaya = ""
-  const biayaKonsultasi = data.biaya;
-  const biayaLayanan = 1000;
-  const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
+function loadPembayaran() {
+  const pembayaran = document.getElementById("total-pembayaran");
 
-  textBiaya =
-  `
-    <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-  `
-  totalBiaya.innerHTML += textBiaya;
-});
+  let params = new URL(document.location).searchParams;
+  const kategoriId = params.get("kategoriId");
+  const dokterId = params.get("dokterId");
 
-// Pembayaran Dokter Kandungan 2
-const totalBiaya2 = document.getElementById("total-pembayaran2")
+  console.log({ kategoriId, dokterId });
 
-fetch(`${RINCIAN_BIAYA_DOKTER_KANDUNGAN}/${2}`)
-.then((respon) => respon.json())
-.then((data) => {
-  let textBiaya = ""
-  const biayaKonsultasi = data.biaya;
-  const biayaLayanan = 1000;
-  const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
+  fetch(buildRequestUrl(kategoriId, dokterId))
+    .then((respon) => respon.json())
+    .then((data) => {
+      console.log(data);
 
-  textBiaya =
-  `
-    <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-  `
-  totalBiaya2.innerHTML += textBiaya;
-});
+      let isiPembayaran = "";
+      const biayaKonsultasi = data.biaya;
+      const biayaLayanan = 1000;
+      const totalBiaya = biayaKonsultasi + biayaLayanan;
 
-// Pembayaran Dokter Kandungan 3
-const totalBiaya3 = document.getElementById("total-pembayaran3")
+      isiPembayaran += `
+    <p class="text-lg font-semibold">Rp. ${totalBiaya}</p>
+  `;
+      pembayaran.innerHTML = isiPembayaran;
+    })
+    .catch(() => {
+      pembayaran.innerHTML = "<h1>Data Dokter Tidak Ada</h1>";
+    });
+}
 
-fetch(`${RINCIAN_BIAYA_DOKTER_KANDUNGAN}/${3}`)
-.then((respon) => respon.json())
-.then((data) => {
-  let textBiaya = ""
-  const biayaKonsultasi = data.biaya;
-  const biayaLayanan = 1000;
-  const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
-
-  textBiaya =
-  `
-    <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-  `
-  totalBiaya3.innerHTML += textBiaya;
-});
-
-const RINCIAN_BIAYA_DOKTER_ANAK =
-  "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/2/dokter";
-
-  // Pembayaran Dokter Anak 1
-  const totalBiaya4 = document.getElementById("total-pembayaran4")
-
-  fetch(`${RINCIAN_BIAYA_DOKTER_ANAK}/${4}`)
-  .then((respon) => respon.json())
-  .then((data) => {
-    let textBiaya = ""
-    const biayaKonsultasi = data.biaya;
-    const biayaLayanan = 1000;
-    const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
-  
-    textBiaya =
-    `
-      <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-    `
-    totalBiaya4.innerHTML += textBiaya;
-  });
-
-  // Pembayaran Dokter Anak 2
-  const totalBiaya5 = document.getElementById("total-pembayaran5")
-
-  fetch(`${RINCIAN_BIAYA_DOKTER_ANAK}/${5}`)
-  .then((respon) => respon.json())
-  .then((data) => {
-    let textBiaya = ""
-    const biayaKonsultasi = data.biaya;
-    const biayaLayanan = 1000;
-    const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
-  
-    textBiaya =
-    `
-      <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-    `
-    totalBiaya5.innerHTML += textBiaya;
-  });
-
-  // Pembayaran Dokter Anak 3
-  const totalBiaya6 = document.getElementById("total-pembayaran6")
-
-  fetch(`${RINCIAN_BIAYA_DOKTER_ANAK}/${6}`)
-  .then((respon) => respon.json())
-  .then((data) => {
-    let textBiaya = ""
-    const biayaKonsultasi = data.biaya;
-    const biayaLayanan = 1000;
-    const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
-  
-    textBiaya =
-    `
-      <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-    `
-    totalBiaya6.innerHTML += textBiaya;
-  });
-
-const RINCIAN_BIAYA_DOKTER_GIGI =
-  "https://65255e4467cfb1e59ce728d6.mockapi.io/kategori/3/dokter";
-
-  // Pembayaran Dokter Gigi 1
-  const totalBiaya7 = document.getElementById("total-pembayaran7")
-
-  fetch(`${RINCIAN_BIAYA_DOKTER_GIGI}/${7}`)
-  .then((respon) => respon.json())
-  .then((data) => {
-    let textBiaya = ""
-    const biayaKonsultasi = data.biaya;
-    const biayaLayanan = 1000;
-    const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
-  
-    textBiaya =
-    `
-      <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-    `
-    totalBiaya7.innerHTML += textBiaya;
-  });
-
-  // Pembayaran Dokter Gigi 2
-  const totalBiaya8 = document.getElementById("total-pembayaran8")
-
-  fetch(`${RINCIAN_BIAYA_DOKTER_GIGI}/${8}`)
-  .then((respon) => respon.json())
-  .then((data) => {
-    let textBiaya = ""
-    const biayaKonsultasi = data.biaya;
-    const biayaLayanan = 1000;
-    const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
-  
-    textBiaya =
-    `
-      <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-    `
-    totalBiaya8.innerHTML += textBiaya;
-  });
-
-  // Pembayaran Dokter Gigi 3
-  const totalBiaya9 = document.getElementById("total-pembayaran9")
-
-  fetch(`${RINCIAN_BIAYA_DOKTER_GIGI}/${9}`)
-  .then((respon) => respon.json())
-  .then((data) => {
-    let textBiaya = ""
-    const biayaKonsultasi = data.biaya;
-    const biayaLayanan = 1000;
-    const totalBiayaPembayaran = biayaKonsultasi + biayaLayanan
-  
-    textBiaya =
-    `
-      <p class="text-lg font-semibold">Rp. ${totalBiayaPembayaran}</p>
-    `
-    totalBiaya9.innerHTML += textBiaya;
-  });
+loadPembayaran();
+// Bagian Akhir Pembayaran
