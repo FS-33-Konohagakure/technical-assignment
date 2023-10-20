@@ -443,10 +443,8 @@ footer {
     .social ul {
         display: flex;
         justify-content: space-between;
-        width: 80%;
         margin-top: 0;
         padding: 0;
-        padding-left: 10%;
     }
 }
 
